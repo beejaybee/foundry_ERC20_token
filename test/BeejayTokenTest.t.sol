@@ -1,6 +1,6 @@
 // SPDX-License-Identifier:MIT
 
-pragma solidity ^0.8.19;
+pragma solidity 0.8.27;
 
 import {Test} from "forge-std/Test.sol";
 import {BeejayToken} from "src/BeejayToken.sol";
@@ -15,7 +15,7 @@ contract BeejayTokenTest is Test {
     address sodiq = makeAddr("sodiq");
 
     uint256 public constant STARTING_BALANCE = 200 ether;
-    uint256 public constant INITIAL_SUPPLY = 1000 ether;
+    uint256 public constant INITIAL_SUPPLY = 100000000 ether;
 
 
     function setUp() public {
